@@ -131,10 +131,11 @@ body {
 }
 
 .contact-info h4 span {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   font-size: 1.5rem;
-  margin-right: 10px;
 }
 
 .contact-info p {
@@ -315,6 +316,9 @@ body {
   color: var(--dark-green);
   font-size: 1.2rem;
   box-shadow: 0 4px 10px rgba(46, 204, 113, 0.2);
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
 }
 
 /* Responsividade */
