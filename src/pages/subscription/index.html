@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EcoVibe - Newsletter</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../../style.css" />
+    <link rel="stylesheet" href="/pages/subscription/index.css" />
+  </head>
+
+  <body>
+    <!-- Banner de inscrição -->
+    <section class="subscription-banner text-center">
+      <div class="container">
+        <h2 class="display-5 fw-bold mb-4 fade-in">
+          Junte-se à Revolução do Clima! 🌍 💚
+        </h2>
+        <p class="fs-5 fade-in fade-in-delay-1">
+          Quer se manter atualizado sobre mudanças climáticas, sustentabilidade
+          e soluções para reduzir a pegada de carbono? <br />
+          Assine nossa newsletter e receba insights exclusivos, notícias e dicas
+          práticas para fazer a diferença!
+        </p>
+      </div>
+    </section>
+
+    <p class="fw-bold fs-4 topics fade-in fade-in-delay-2 text-center">O que você vai receber?</p>
+    <section class="container py-4 text-center">
+        <ul class="list-group-flush fs-5 d-inline-block text-start mx-auto">
+          <li class="mb-2 list-group-item border-0 fade-in fade-in-delay-3">
+            📢 <strong>Notícias confiáveis:</strong> Atualizações sobre as
+            mudanças climáticas e ações globais.
+          </li>
+          <li class="mb-2 list-group-item border-0 fade-in fade-in-delay-4">
+            🌱 <strong>Dicas práticas:</strong> Pequenas mudanças que podem
+            reduzir sua pegada de carbono.
+          </li>
+          <li class="mb-2 list-group-item border-0 fade-in fade-in-delay-5">
+            💡 <strong>Inovações verdes:</strong> Descubra novas tecnologias
+            para um futuro sustentável.
+          </li>
+          <li class="list-group-item border-0 fade-in fade-in-delay-6">
+            🚀 <strong>Oportunidades:</strong> Projetos, eventos e iniciativas
+            para participar.
+          </li>
+        </ul>
+    </section>
+
+    <section class="container mb-5">
+      <div class="row justify-content-center">
+        <div class="custom-container fade-in fade-in-delay-7">
+          <div class="form-header">
+            <h3>Inscreva-se na Newsletter</h3>
+            <p>Preencha o formulário abaixo para começar a receber nossas atualizações</p>
+          </div>
+          <div class="form-body">
+            <form id="subscription-form">
+              <div class="form-group">
+                <label for="name" class="custom-label">Nome</label>
+                <input
+                  type="text"
+                  class="form-control custom-input"
+                  id="name"
+                  placeholder="Digite seu nome completo"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="custom-label">E-mail</label>
+                <input
+                  type="email"
+                  class="form-control custom-input"
+                  id="email"
+                  placeholder="Digite seu e-mail para receber as atualizações"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="frequency" class="custom-label">Frequência</label>
+                <select class="form-select custom-select" id="frequency" required>
+                  <option value="" selected disabled>
+                    Selecione a frequência de recebimento
+                  </option>
+                  <option value="dia">Diária</option>
+                  <option value="semana">Semanal</option>
+                  <option value="mes">Mensal</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="hour" class="custom-label">Horário de Envio</label>
+                <input
+                  type="time"
+                  class="form-control custom-input"
+                  id="hour"
+                  required
+                />
+              </div>
+
+              <div class="d-grid">
+                <button
+                  type="submit"
+                  id="submit-button"
+                  class="btn custom-button"
+                >
+                  Inscrever-se Agora
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer"></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f33552fa50.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
