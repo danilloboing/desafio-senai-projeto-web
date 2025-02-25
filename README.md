@@ -65,22 +65,22 @@ ecovibe/
 
 2. Navegue até a pasta do projeto:
    ```bash
-   cd ecovibe
+   cd {nome_do_arquivo}
    ```
 
 3. Instale as dependências (se necessário):
    ```bash
-   npm install
+   yarn install
    ```
 
 4. Inicie o servidor de desenvolvimento:
    ```bash
-   npm start
+   yarn dev
    ```
 
 5. Acesse o projeto no navegador:
    ```
-   http://localhost:3000
+   http://localhost:8080
    ```
 
 ## 📱 Responsividade
